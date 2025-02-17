@@ -1,0 +1,54 @@
+[
+    {
+        "xtype": "container",
+        "padding": "10 10 0 10", 
+        "layout": "anchor",
+        "defaults": {
+            "labelAlign": "right",
+            "labelWidth": 185,
+            "anchor": "100%"
+        },
+        "items": [
+            {
+                "xtype": "textfield",
+                "fieldLabel": "#IP address / Range / Mask",
+                "maxLength": 50,
+                "name": "address",
+                "allowBlank": false
+            },
+            {
+                "xtype": "textfield",
+                "fieldLabel": "#Note",
+                "maxLength": 255,
+                "name": "note"
+            },
+            {
+                "xtype": "fieldset",
+                "title": "#IP address are available for",
+                "defaults": {
+                    "xtype": "checkbox",
+                    "ui": "switch",
+                    "labelAlign": "right",
+                    "labelWidth": 130,
+                    "inputValue": 1
+                },        
+                "items": [
+                    {
+                        "fieldLabel": "#for backend",
+                        "name": "backend"
+                    },
+                    {
+                        "fieldLabel": "#for frontend",
+                        "name": "frontend"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "xtype": "label",
+        "ui": "note",
+        "html": "#IP address writing format",
+        "style": "line-height:1.4"
+    }
+]
