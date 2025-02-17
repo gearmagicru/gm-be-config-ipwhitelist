@@ -14,7 +14,7 @@
 ![php 8.2+](https://img.shields.io/badge/php-min%208.2-red.svg)
 
 ## Скриншот
-<img src="https://github.com/gearmagicru/gm-be-config-ipwhitelist/blob/master/assets/help/form.png?raw=true">
+<img src="https://github.com/gearmagicru/gm-be-config-ipwhitelist/blob/master/assets/help/grid.png?raw=true">
 
 ## Установка
 
